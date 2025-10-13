@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LoginPage from "./pages/LoginPage";
-import CadastroEmpresa from "./pages/CadastroEmpresa";
-import CadastroUsuario from "./pages/CadastroUsuario";
-import Dashboard from "./pages/Dashboard";
+import LoginPage from "./pages/LoginPage.jsx";
+import CadastroEmpresa from "./pages/CadastroEmpresa.jsx";
+import CadastroUsuario from "./pages/CadastroUsuario.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 import "./css/App.css";
 
 export default function App() {
