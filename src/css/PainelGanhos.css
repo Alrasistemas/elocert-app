@@ -1,0 +1,89 @@
+.painel-ganho {
+  height: 320px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding-top: 30px;
+   grid-column: span 3;
+}
+
+.painel-ganho-titulo {
+  margin-bottom: 50px;
+  color: rgba(0, 0, 0, 0.56);
+
+text-align: center;
+font-family: Figtree;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.painel-ganho-grafico {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.grafico-ganho-fundo {
+  stroke: #e5e7eb;
+  stroke-width: 25;
+  fill: none;
+}
+
+.grafico-ganho-progresso {
+  stroke: #1f6fff;
+  stroke-width: 25;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.grafico-ganho-total {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.grafico-ganho-etiqueta {
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  background: #b3d4ff;
+  color: #000;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-weight: 500;
+}
+
+.painel-ganho-legenda {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.legenda-ganho-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.legenda-ganho-cor {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.cor-ganho-cnpj {
+  background: #1f6fff;
+}
+
+.cor-ganho-cpf {
+  background: #d1d5db;
+}

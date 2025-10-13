@@ -1,0 +1,41 @@
+/* src/components/PainelMeuSaldo.css */
+
+.pms-card {
+  --pms-bg: #1f6fff;
+  background: var(--pms-bg);
+  color: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(31, 111, 255, 0.25);
+  grid-column: span 4;
+}
+
+.pms-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pms-title {
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.pms-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  /* ícone branco */
+}
+
+.pms-value {
+  margin-top: 6px;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}

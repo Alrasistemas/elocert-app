@@ -1,0 +1,56 @@
+/* src/components/PainelMovimentacaoRecente.css */
+
+.pmr-card{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:16px;
+  width:100%;
+  box-sizing:border-box;
+  overflow:hidden;
+  grid-column: span 4;
+}
+
+.pmr-head{
+  background:#1f6fff;
+  color:#fff;
+  font-weight:700;
+  font-size:13px;
+  padding:10px 14px;
+  border-top-left-radius:16px;
+  border-top-right-radius:16px;
+}
+
+.pmr-body{ padding:10px 12px; }
+
+.pmr-group{
+  font-size:12px;
+  color:#374151;
+  margin-bottom:8px;
+}
+
+.pmr-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:8px 10px;
+  border-radius:10px;
+  background:#f8fafc;
+  border:1px solid #eef2f7;
+  margin-bottom:6px;
+}
+
+.pmr-left{ display:flex; align-items:center; gap:8px; min-width:0; }
+.pmr-ic{ flex:0 0 auto; display:inline-flex; }
+.pmr-text{ font-size:13px; color:#111827; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.pmr-value{ font-size:13px; font-weight:700; color:#111827; }
+
+.pmr-skel{
+  height:36px;
+  border-radius:10px;
+  background: linear-gradient(90deg,#f1f5f9 0%,#e5e7eb 50%,#f1f5f9 100%);
+  background-size:200% 100%;
+  animation: pmr-shine 1.2s linear infinite;
+  margin-bottom:6px;
+}
+
+@keyframes pmr-shine{ to{ background-position:-200% 0; } }

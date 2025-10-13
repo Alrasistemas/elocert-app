@@ -1,0 +1,73 @@
+.atendimento-painel {
+
+  height: 321px;
+  border-radius: 30px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+   grid-column: span 9;
+   
+}
+
+.atendimento-painel-header {
+  background: #1f6fff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.atendimento-painel-body {
+  padding: 12px;
+}
+
+.atendimento-painel-head {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+  color: #6b7280;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.atendimento-painel-head .right {
+  text-align: right;
+}
+
+.atendimento-painel-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.atendimento-painel-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+}
+
+.atendimento-painel-row .alt {
+  background: #f8fafc;
+}
+
+.atendimento-painel-row .data {
+  font-weight: 600;
+}
+
+.atendimento-painel-row .cliente {
+  color: #111827;
+}
+
+.atendimento-painel-row .tipo {
+  text-align: right;
+  color: #374151;
+}
+
+.atendimento-placeholder {
+  height: 42px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  margin-bottom: 6px;
+}

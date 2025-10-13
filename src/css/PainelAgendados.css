@@ -1,0 +1,61 @@
+.painel-agendados {
+ 
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  padding: 12px;
+  font-family: system-ui, sans-serif;
+}
+
+.titulo {
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.data-linha {
+  color: #1f6fff;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.data-linha .linha {
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hora {
+  width: 44px;
+  color: #374151;
+  font-size: 13px;
+}
+
+.barra {
+  width: 3px;
+  height: 18px;
+  background: #1f6fff;
+  border-radius: 2px;
+}
+
+.cliente {
+  color: #6b7280;
+  font-size: 13px;
+}

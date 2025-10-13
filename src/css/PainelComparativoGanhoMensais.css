@@ -1,0 +1,20 @@
+
+.pcgm-card{
+  background:#fff;
+  border:1px solid #e5e7eb;
+  border-radius:16px;
+  padding:10px 12px 6px;
+  width:100%;
+  box-sizing:border-box;
+}
+.pcgm-title{
+  font-size:13px;
+  font-weight:700;
+  color:#111827;
+  margin-bottom:6px;
+}
+.pcgm-chart{ height:180px; }
+
+/* cores das barras via className do Recharts */
+.pcgm-bar-anterior { fill:#2563eb; } /* azul escuro */
+.pcgm-bar-atual    { fill:#06b6d4; } /* ciano */

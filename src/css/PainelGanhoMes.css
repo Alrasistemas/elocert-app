@@ -1,0 +1,39 @@
+.pgm-card {
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+     grid-column: span 4;
+}
+
+.pgm-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.pgm-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.pgm-icon {
+  color: #1f6fff; /* azul do seu sistema */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pgm-value {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #111827;
+}

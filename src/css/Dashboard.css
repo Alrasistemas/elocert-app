@@ -1,0 +1,32 @@
+.dash-grid-principal {
+     display: grid;
+     grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.dash-grid-esquerda {
+     grid-column: span 9;
+     display: grid;
+     grid-template-columns: repeat(12, minmax(0, 1fr));
+     gap: 16px;
+}
+
+
+.dash-grid-direita {
+     grid-column: span 3;
+     display: grid;
+     grid-template-columns: repeat(1, minmax(0, 1fr));
+     gap: 16px;
+     margin-left: 30px;
+ 
+}
+
+.dash-grid-esquerda h2 {
+     grid-column: span 12;
+     color: #000;
+     font-family: Figtree;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+
+}

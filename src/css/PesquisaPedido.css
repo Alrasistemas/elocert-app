@@ -1,0 +1,169 @@
+/* src/components/PesquisaPedidos.css */
+/* Escopo por prefixo: pp- */
+
+.pp-container {
+  font-family: system-ui, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+  padding: 12px;
+  box-sizing: border-box;
+  
+}
+
+.pp-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: end;
+  margin-bottom: 8px;
+}
+
+.pp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 160px;
+}
+
+.pp-grow {
+  flex: 1;
+  min-width: 240px;
+}
+
+.pp-label {
+  font-size: 12px;
+  color: #374151;
+}
+
+.pp-input,
+.pp-select {
+  font-size: 13px;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.pp-select--compact {
+  padding: 6px 8px;
+}
+
+.pp-input:focus,
+.pp-select:focus {
+  outline: none;
+  border-color: #1f6fff;
+  box-shadow: 0 0 0 3px rgba(31, 111, 255, 0.15);
+}
+
+.pp-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.pp-btn {
+  background: #1f6fff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.pp-btn:hover {
+  background: #155fe0;
+}
+
+.pp-table-wrapper {
+  overflow: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.pp-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.pp-thead th {
+  background: #1f6fff;
+  color: #fff;
+  text-align: left;
+  padding: 10px 12px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
+.pp-row td {
+  padding: 10px 12px;
+  font-size: 13px;
+  border-top: 1px solid #eef2f7;
+}
+
+.pp-row:nth-child(even) {
+  background: #f9fafb;
+}
+
+.pp-row:hover {
+  background: #eef2ff;
+}
+
+.pp-col-acoes,
+.pp-acoes {
+  width: 120px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.pp-iconbtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 6px;
+}
+
+.pp-iconbtn:hover {
+  opacity: 0.7;
+}
+
+.pp-empty {
+  text-align: center;
+  padding: 16px;
+  color: #6b7280;
+}
+
+/* badges de status */
+.pp-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.pp-badge--ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.pp-badge--warn {
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+.pp-badge--err {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.pp-badge--neutral {
+  background: #e5e7eb;
+  color: #111827;
+}

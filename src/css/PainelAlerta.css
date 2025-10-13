@@ -1,0 +1,63 @@
+.painel-alerta {
+
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  font-family: system-ui, sans-serif;
+}
+
+.painel-titulo {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.painel-conteudo {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.painel-subtitulo {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.painel-texto {
+  font-size: 12px;
+  color: #6b7280;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.painel-botoes {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.botao-fechar,
+.botao-verificar {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.botao-fechar {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.botao-verificar {
+  background: #1f6fff;
+  color: #fff;
+}
