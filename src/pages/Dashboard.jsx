@@ -76,9 +76,9 @@ anoAtual={[900,1400,1300,700,1600,1800,1100,1700,150,10,5,15]}
   if (view === "rel") {
     return (
       <div className="dash-grid-principal">
-      <div className="dash-grid-esquerda">
+        <div className="dash-grid-esquerda">
           <h2>MEUS RELATORIO</h2>
-            <PainelGanhoMes />
+          <PainelGanhoMes />
           <PainelMeuSaldo />
           <PainelMovimentacaoRecente />
 
@@ -92,8 +92,8 @@ anoAtual={[900,1400,1300,700,1600,1800,1100,1700,150,10,5,15]}
   // VIEW = "agenda" → mostra PesquisaPedido
   if (view === "agenda") {
     return (
-     <div>
       <div>
+        <div>
           <h2>MEUS PEDIDOS</h2>
           <PesquisaPedido />
         </div>
@@ -126,3 +126,5 @@ anoAtual={[900,1400,1300,700,1600,1800,1100,1700,150,10,5,15]}
   );
 
 }
+
+//

@@ -1,7 +1,20 @@
 .painel-calendario {
-margin-top: 20px;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2e10d6;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  width: 220px;     /* largura do calendário */
+  height: 300px;    /* altura do calendário */
 }
 
 
+
+/* Reduz o tamanho dos dias para caber bem */
+.painel-calendario .rdp-day {
+  font-size: 1rem;
+  padding: 0rem;
+}
